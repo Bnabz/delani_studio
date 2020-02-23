@@ -4,7 +4,6 @@
 
 .intro{
   background-image: url('../assets/backgrounds/h_img.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-align: center;
@@ -49,8 +48,12 @@ vertical-align:top;
 }
 .services{
   background-image: url("../assets/backgrounds/s_image.jpg" );
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
-
+  color: white;
+  font-weight: bold;
+  font-family: 'Didact Gothic';
 }
 
 .contact{
