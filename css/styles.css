@@ -25,8 +25,14 @@
 #mouse-click{
   padding-top : 30px;
   padding-bottom: 30px;
-   animation: bounce 3s ;
+  animation: bounce 3s infinite;
+   animation-timing-function: ease;
 }
+@keyframes bounce {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-30px); }
+      100% { transform: translateY(0); }
+  }
 
 .intro h1{
   padding: 5px;
