@@ -2,7 +2,7 @@
 
 
 
-.landing{
+.intro{
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -11,6 +11,27 @@
   padding-top:15%;
   font-family: 'Didact Gothic';
 
+}
+#logo{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  height: 75px;
+  width: 75px;
+
+}
+
+#mouse-click{
+  padding-top : 25px;
+  padding-bottom: 30px;
+   animation: bounce 3s ;
+}
+
+.intro h1{
+  padding: 2px;
+  margin: 5px;
+}
+.intro p{
+  padding: 2px;
 }
 .services{
   background-image: url("../assets/backgrounds/s_image.jpg" );
