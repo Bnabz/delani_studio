@@ -73,12 +73,36 @@ vertical-align:top;
     display: none;
 }
 
-.contact{
+#contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
-  background-size: cover;
   background-repeat: no-repeat;
+   background-size: cover;
+   max-width: 100%;
+    padding-top: 20px;
   color: white;
+  text-align: center;
+  font-family: 'Didact Gothic';
 
+}
+.form_class {
+    text-align: center;
+    position: relative;
+    width: 650px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+::-webkit-input-placeholder {
+  font-weight: bold;
+  color: white;
+}
+.form_class textarea {
+    width: 100%;
+    background: transparent;
+}
+.form_class input {
+
+    background: transparent;
 }
 footer{
     padding-top: 35px;
