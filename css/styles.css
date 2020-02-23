@@ -80,3 +80,9 @@ vertical-align:top;
   color: white;
 
 }
+footer{
+    padding-top: 35px;
+    margin-bottom:30px;
+  text-align: center;
+  font-family: 'Didact Gothic';
+}
