@@ -12,26 +12,40 @@
   font-family: 'Didact Gothic';
 
 }
-#logo{
-  margin-top: 15px;
+
+
+.logo{
+  margin-top: 5px;
   margin-bottom: 25px;
   height: 75px;
   width: 75px;
 
+
 }
 
 #mouse-click{
-  padding-top : 25px;
+  padding-top : 30px;
   padding-bottom: 30px;
    animation: bounce 3s ;
 }
 
 .intro h1{
-  padding: 2px;
+  padding: 5px;
   margin: 5px;
 }
 .intro p{
-  padding: 2px;
+  padding: 5px;
+}
+/*.center_intro{
+  display:inline-block;
+vertical-align:top;
+}*/
+
+.about_us{
+  text-align: center;
+  padding-top:35px;
+  padding-bottom: 35px;
+  font-family: 'Didact Gothic';
 }
 .services{
   background-image: url("../assets/backgrounds/s_image.jpg" );
