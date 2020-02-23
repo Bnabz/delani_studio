@@ -1,6 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
 
 
+
+.landing{
+  background-image: url('../assets/backgrounds/h_img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  padding-top:15%;
+  font-family: 'Didact Gothic';
+
+}
 .services{
   background-image: url("../assets/backgrounds/s_image.jpg" );
   text-align: center;
@@ -10,7 +21,7 @@
 .contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
   background-size: cover;
-
+  background-repeat: no-repeat;
   color: white;
 
 }
