@@ -1,4 +1,4 @@
-
+/* show, hide what we do descriptions*/
 $(document).ready(function(){
   $("#design_pic").click(function(){
     $("#design_pic").hide('2000');
@@ -30,9 +30,10 @@ $(document).ready(function(){
   });
 });
 
-
+/*Portfolio fade toggle*/
 $(document).ready(function(){
   $(".card").hover(function () {
     $(this).children(".demo").fadeToggle(1000, "linear");
-  }); 
+  });
 });
+/*Portfolio fade toggle*/
