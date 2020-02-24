@@ -1,27 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
-
-
-
 .intro{
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
   color: white;
   text-align: center;
   padding-top:15%;
   font-family: 'Didact Gothic';
-
 }
-
-
 .logo{
   margin-top: 5px;
   margin-bottom: 25px;
   height: 75px;
   width: 75px;
-
-
 }
-
 #mouse-click{
   padding-top : 30px;
   padding-bottom: 30px;
@@ -33,7 +27,6 @@
       50%  { transform: translateY(-30px); }
       100% { transform: translateY(0); }
   }
-
 .intro h1{
   padding: 5px;
   margin: 5px;
@@ -41,11 +34,6 @@
 .intro p{
   padding: 5px;
 }
-/*.center_intro{
-  display:inline-block;
-vertical-align:top;
-}*/
-
 .about_us{
   text-align: center;
   padding-top:35px;
@@ -73,19 +61,13 @@ vertical-align:top;
     display: none;
 }
 
-
-    width: 100%;
-}
-.card-deck {
-    padding: 1% 4%;
-}
 .card {
-    margin: 10px 0;
+    margin: 20px 20px ;
     position: relative;
     overflow: hidden;
 }
 .card:hover img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .row:hover img{
     transform: scale(1.1);
@@ -98,55 +80,46 @@ vertical-align:top;
     display: none;
     font-weight: bold;
     font-size:200%
-
 }
 .description {
-
     color: white;
-    padding: 50px 10px;
-    font-weight: 100%;
-    padding-top: 30px;
-    border: 4px solid white;
+    padding: 50px 10px ;
     margin: 20% 5%;
+    font-weight: 100%;
+    border: 4px solid white;
     overflow: hidden;
     font-family: 'Didact Gothic';
-
 }
 #portfolio h1{
   text-align: center;
 }
-
-
-
-
 #contact{
   background-image: url('../assets/backgrounds/c_image.jpg');
   background-repeat: no-repeat;
    background-size: cover;
    max-width: 100%;
-    padding-top: 20px;
+    margin-top: 20px;
   color: white;
   text-align: center;
   font-family: 'Didact Gothic';
-
 }
-.form_class {
+.validate {
     text-align: center;
     position: relative;
     width: 650px;
     left: 50%;
-    transform: translate(-50%);
+   transform: translate(-50%);
 }
 
 ::-webkit-input-placeholder {
   font-weight: bold;
   color: white;
 }
-.form_class textarea {
+.validate textarea {
     width: 100%;
     background: transparent;
 }
-.form_class input {
+.validate input {
 
     background: transparent;
 }

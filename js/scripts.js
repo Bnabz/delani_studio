@@ -33,7 +33,25 @@ $(document).ready(function(){
 /*Portfolio fade toggle*/
 $(document).ready(function(){
   $(".card").hover(function () {
-    $(this).children(".demo").fadeToggle(1000, "linear");
+    $(this).children(".demo").fadeToggle(2000);
   });
 });
-/*Portfolio fade toggle*/
+
+
+/*$(document).ready(function(){
+  $("form#mc-embedded-subscribe-form").submit(function(event){
+    event.preventDefault();
+    let name = $("form#name").val();
+    let email = $("form#email").val();
+    let message = $("textarea#comment").val();
+    if (name && email){
+      alert ("Hello"+ name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email");
+    }
+
+  });
+
+});
+*/
