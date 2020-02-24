@@ -69,9 +69,10 @@ vertical-align:top;
 #what_we_do h2{
     font-weight: bold;
 }
-.hidden {
+.design,.product, .development {
     display: none;
 }
+
 
     width: 100%;
 }
@@ -86,12 +87,17 @@ vertical-align:top;
 .card:hover img {
     transform: scale(1.1);
 }
+.row:hover img{
+    transform: scale(1.1);
+}
 .demo{
     position: absolute;
     width: 100%;
     min-height: 100%;
     cursor: pointer;
     display: none;
+    font-weight: bold;
+    font-size:200%
 
 }
 .description {
