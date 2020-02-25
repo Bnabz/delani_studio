@@ -1,3 +1,15 @@
+let validate = function(a,b,c){
+  if (a && b && c){
+    alert ("Hello"+" "+ a + ", we have received your message. Thank you for reaching out to us.");
+  }
+  else if (a && b) {
+      alert ("Hello"+" "+ a + ", please type in a message.");
+  }
+  else {
+    alert("Please enter your name and email");
+  }
+}
+
 /* show, hide what we do descriptions*/
 $(document).ready(function(){
   $("#design_pic").click(function(){
@@ -37,22 +49,13 @@ $(document).ready(function(){
   });
 });
 
-
+/*Validate form*/
 $(document).ready(function(){
   $("form#mc-embedded-subscribe-form").submit(function(event){
     let name = $("#name").val();
     let email = $("#email").val();
     let message = $("textarea#comment").val();
-    if (name && email && message){
-      alert ("Hello"+" "+ name + ", we have received your message. Thank you for reaching out to us.");
-    }
-    else if (name && email) {
-        alert ("Hello"+" "+ name + ", please type in a message.");
-    }
-    else {
-      alert("Please enter your name and email");
-    }
-
+   validate(name, email, message);
   });
 
 });

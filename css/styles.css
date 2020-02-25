@@ -2,20 +2,13 @@
 #intro{
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
-   background-position: center;
-   background-size: 100%;
-   font-family: 'Didact Gothic';
+  background-position: center;
+  font-family: 'Didact Gothic';
   align-items: center;
- text-align: center;
- padding-top: 200px;
- padding-bottom: 200px;
-/*  display:flex;
-  flex-direction: column;
-  justify-content:center;
-  color: white;
   text-align: center;
-   justify-content:center;
-  padding-top:15%;*/
+  color:white;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
 }
 #logo{
@@ -28,16 +21,17 @@
   padding-top : 30px;
   padding-bottom: 30px;
   animation: bounce 3s infinite;
-   animation-timing-function: ease;
+  animation-timing-function: ease;
 }
 @keyframes bounce {
-      0%   { transform: translateY(0); }
-      50%  { transform: translateY(-30px); }
-      100% { transform: translateY(0); }
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
   }
   .center_intro{
     vertical-align: middle;
     align-items: center;
+    position: in;
   }
 #intro h1{
   padding: 5px;
@@ -135,13 +129,36 @@
     width: 100%;
     background: transparent;
 }
-.validate input {
-
-    background: transparent;
+.validate {
+  text-align: center;
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  left: 50%;
+  transform: translate(-50%);
 }
+
+
 footer{
     padding-top: 35px;
     margin-bottom:30px;
   text-align: center;
   font-family: 'Didact Gothic';
+}
+
+@media screen and (max-width: 450px) {
+    .form-group form-inline"{
+        width: 50%;
+    }
+    body{
+          overflow-x: auto;
+      }
+}
+@media screen and (max-width: 600px) {
+    #intro{
+      background-size:auto;
+      padding-top:0px;
+      padding-bottom: 0px;
+    }
+
 }

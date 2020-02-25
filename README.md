@@ -1,16 +1,18 @@
-# Akan Name Generator
+# Delani studio
 #### Version 1.0, 17/1/2020
 #### By Brian Nabiswa
 ## Description
 This project creates a website for the fictional  Delani studio. It provides details of services offered, showcases some of the studio's work in a  portfolio section and provides a form that enables users to submit their names and email addresses , as well as send messages to Delani studios.
 ## Features
-1.A form allowing user to input day, month and year of birth.
+1.A 'what we do' section with hidden descriptions that show when the icons are clicked on.
 
-2.Radio buttons allowing user to select gender.
+2.A portfolio section with images that get highlighted when the user hovers over them.
 
-3.A validation function alerting user if date entered is incorrect.
+3.A form into which the user can input their name and email address,as well as leave a message.
 
-4.A submit button, which when pressed after inputing valid data returns to the user the date they were born and their Akan name.
+4.A validation function that alerts the user if they do not input their name or email address.
+
+4.Integration with the Mailchimp API in order to receive messages from the user and send back automated emails.
 
 ## Setup/Installation Requirements
 1.Clone this repository or download a ZIP file of the code.
@@ -19,9 +21,9 @@ This project creates a website for the fictional  Delani studio. It provides det
 
 3.Open the index.html file to view the application on your preferred web browser.
 
-To view the app, open the Github Pages link provided below:
+To view the site, open the Github Pages link provided below:
 ## Link to web page.
-https://bnabz.github.io/akan-name-generator/
+https://bnabz.github.io/delani_studio/
 ## Technologies Used
 HTML
 CSS
