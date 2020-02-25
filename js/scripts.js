@@ -55,7 +55,7 @@ $(document).ready(function(){
     let name = $("#name").val();
     let email = $("#email").val();
     let message = $("textarea#comment").val();
-   validate(name, email, message);
+    validate(name, email, message);
   });
 
 });
