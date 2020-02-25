@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
-.intro{
+#intro{
   background-image: url('../assets/backgrounds/h_img.jpg');
   background-repeat: no-repeat;
-  display:flex;
+   background-position: center;
+   background-size: 100%;
+   font-family: 'Didact Gothic';
+  align-items: center;
+ text-align: center;
+ padding-top: 200px;
+ padding-bottom: 200px;
+/*  display:flex;
   flex-direction: column;
   justify-content:center;
   color: white;
   text-align: center;
-  padding-top:15%;
-  font-family: 'Didact Gothic';
+   justify-content:center;
+  padding-top:15%;*/
+
 }
-.logo{
+#logo{
   margin-top: 5px;
   margin-bottom: 25px;
   height: 75px;
@@ -27,31 +35,39 @@
       50%  { transform: translateY(-30px); }
       100% { transform: translateY(0); }
   }
-.intro h1{
+  .center_intro{
+    vertical-align: middle;
+    align-items: center;
+  }
+#intro h1{
   padding: 5px;
   margin: 5px;
 }
-.intro p{
+#intro p{
   padding: 5px;
 }
-.about_us{
+#about_us{
   text-align: center;
-  padding-top:35px;
-  padding-bottom: 35px;
+  padding-top:15px;
+  padding-bottom: 15px;
   font-family: 'Didact Gothic';
 }
-.services{
-  background-image: url("../assets/backgrounds/s_image.jpg" );
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  font-family: 'Didact Gothic';
+#services{
+ background-image: url("../assets/backgrounds/s_image.jpg" );
+ margin-bottom: 50px;
+ background-position: center;
+ padding-top: 100px;
+ padding-bottom: 100px;
+ color: white;
+ font-weight: bold;
+}
+}.centre_txt{
+  vertical-align: middle;
+  height: 350px;
 }
 #what_we_do{
   text-align: center;
-  padding-top: 40px;
+  padding-top: 10px;
   font-family: 'Didact Gothic';
 }
 #what_we_do h2{

@@ -38,14 +38,16 @@ $(document).ready(function(){
 });
 
 
-/*$(document).ready(function(){
+$(document).ready(function(){
   $("form#mc-embedded-subscribe-form").submit(function(event){
-    event.preventDefault();
-    let name = $("form#name").val();
-    let email = $("form#email").val();
+    let name = $("#name").val();
+    let email = $("#email").val();
     let message = $("textarea#comment").val();
-    if (name && email){
-      alert ("Hello"+ name + ", we have received your message. Thank you for reaching out to us.");
+    if (name && email && message){
+      alert ("Hello"+" "+ name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else if (name && email) {
+        alert ("Hello"+" "+ name + ", please type in a message.");
     }
     else {
       alert("Please enter your name and email");
@@ -54,4 +56,3 @@ $(document).ready(function(){
   });
 
 });
-*/
