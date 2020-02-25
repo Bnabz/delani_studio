@@ -1,9 +1,9 @@
-let validate = function(a,b,c){
-  if (a && b && c){
-    alert ("Hello"+" "+ a + ", we have received your message. Thank you for reaching out to us.");
+let validate = function(Name,Email,Message){
+  if (Name && Email && Message){
+    alert ("Hello"+" "+ Name + ", we have received your message. Thank you for reaching out to us.");
   }
-  else if (a && b) {
-      alert ("Hello"+" "+ a + ", please type in a message.");
+  else if (Name && Email) {
+      alert ("Hello"+" "+ Name + ", please type in a message.");
   }
   else {
     alert("Please enter your name and email");
